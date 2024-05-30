@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9400D3, #8A2BE2);
+    color: white;
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #333;
+  }
+
+  .container {
+    padding-top: 38px;
+    display: flex;
+  }
+  .profile {
+    margin-top: 80px;
+    margin-left: 50px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  .profile img {
+    width: 500px;
+    border-radius: 50%;
+  }
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 200px;
+    padding: 20px;
+  }
+  .social-links a {
+    text-decoration: none;
+    margin: 5px;
+    color: #000000;
+  }
+  .project-sec {
+    margin-top: 90PX;
+    background-color: #7c00b2;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .project-sec h1 {
+    padding-top: 100px;
+  }
+  .project-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .project {
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+.project:hover {
+    background-color: #ccc;
+}
+.skill-sec{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.s-box {
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+.box:hover {
+    background-color: #ccc;
+}
+.experience {
+  background-color: #7c00b2;
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.project-exp, .freelancing, .internship {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+.experience h1 {
+  padding-top: 50px;
+}
+.experience h2 {
+  color: #333;
+}
+.experience h3 {
+  color: #333;
+}
+.experience p {
+  color: #000000;
+}
+.experience {
+  padding-top: 60px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info,
+.social-media {
+  display: inline-block;
+  width: 50%;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+}
+
